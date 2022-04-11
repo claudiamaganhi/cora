@@ -10,23 +10,13 @@
 		A70E901D2804D8FF003BB62C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E901C2804D8FF003BB62C /* AppDelegate.swift */; };
 		A70E901F2804D8FF003BB62C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E901E2804D8FF003BB62C /* SceneDelegate.swift */; };
 		A70E90212804D8FF003BB62C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90202804D8FF003BB62C /* ViewController.swift */; };
-		A70E90242804D8FF003BB62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70E90222804D8FF003BB62C /* Main.storyboard */; };
 		A70E90262804D901003BB62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70E90252804D901003BB62C /* Assets.xcassets */; };
 		A70E90292804D901003BB62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70E90272804D901003BB62C /* LaunchScreen.storyboard */; };
 		A70E90342804D901003BB62C /* coraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90332804D901003BB62C /* coraTests.swift */; };
-		A70E903E2804D901003BB62C /* coraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E903D2804D901003BB62C /* coraUITests.swift */; };
-		A70E90402804D901003BB62C /* coraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E903F2804D901003BB62C /* coraUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A70E90302804D901003BB62C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A70E90112804D8FF003BB62C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A70E90182804D8FF003BB62C;
-			remoteInfo = cora;
-		};
-		A70E903A2804D901003BB62C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A70E90112804D8FF003BB62C /* Project object */;
 			proxyType = 1;
@@ -40,15 +30,11 @@
 		A70E901C2804D8FF003BB62C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A70E901E2804D8FF003BB62C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A70E90202804D8FF003BB62C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A70E90232804D8FF003BB62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A70E90252804D901003BB62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70E90282804D901003BB62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A70E902A2804D901003BB62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A70E902F2804D901003BB62C /* coraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70E90332804D901003BB62C /* coraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coraTests.swift; sourceTree = "<group>"; };
-		A70E90392804D901003BB62C /* coraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70E903D2804D901003BB62C /* coraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coraUITests.swift; sourceTree = "<group>"; };
-		A70E903F2804D901003BB62C /* coraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coraUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A70E90362804D901003BB62C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +60,6 @@
 			children = (
 				A70E901B2804D8FF003BB62C /* cora */,
 				A70E90322804D901003BB62C /* coraTests */,
-				A70E903C2804D901003BB62C /* coraUITests */,
 				A70E901A2804D8FF003BB62C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +69,6 @@
 			children = (
 				A70E90192804D8FF003BB62C /* cora.app */,
 				A70E902F2804D901003BB62C /* coraTests.xctest */,
-				A70E90392804D901003BB62C /* coraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +76,9 @@
 		A70E901B2804D8FF003BB62C /* cora */ = {
 			isa = PBXGroup;
 			children = (
-				A70E901C2804D8FF003BB62C /* AppDelegate.swift */,
-				A70E901E2804D8FF003BB62C /* SceneDelegate.swift */,
-				A70E90202804D8FF003BB62C /* ViewController.swift */,
-				A70E90222804D8FF003BB62C /* Main.storyboard */,
-				A70E90252804D901003BB62C /* Assets.xcassets */,
-				A70E90272804D901003BB62C /* LaunchScreen.storyboard */,
-				A70E902A2804D901003BB62C /* Info.plist */,
+				A70E904E2804DC10003BB62C /* AppConfiguration */,
+				A70E904C2804DB97003BB62C /* Resources */,
+				A70E904D2804DBC0003BB62C /* Scenes */,
 			);
 			path = cora;
 			sourceTree = "<group>";
@@ -118,13 +91,31 @@
 			path = coraTests;
 			sourceTree = "<group>";
 		};
-		A70E903C2804D901003BB62C /* coraUITests */ = {
+		A70E904C2804DB97003BB62C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A70E903D2804D901003BB62C /* coraUITests.swift */,
-				A70E903F2804D901003BB62C /* coraUITestsLaunchTests.swift */,
+				A70E90252804D901003BB62C /* Assets.xcassets */,
+				A70E90272804D901003BB62C /* LaunchScreen.storyboard */,
+				A70E902A2804D901003BB62C /* Info.plist */,
 			);
-			path = coraUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A70E904D2804DBC0003BB62C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A70E90202804D8FF003BB62C /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A70E904E2804DC10003BB62C /* AppConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				A70E901C2804D8FF003BB62C /* AppDelegate.swift */,
+				A70E901E2804D8FF003BB62C /* SceneDelegate.swift */,
+			);
+			path = AppConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +156,6 @@
 			productReference = A70E902F2804D901003BB62C /* coraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A70E90382804D901003BB62C /* coraUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A70E90492804D901003BB62C /* Build configuration list for PBXNativeTarget "coraUITests" */;
-			buildPhases = (
-				A70E90352804D901003BB62C /* Sources */,
-				A70E90362804D901003BB62C /* Frameworks */,
-				A70E90372804D901003BB62C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A70E903B2804D901003BB62C /* PBXTargetDependency */,
-			);
-			name = coraUITests;
-			productName = coraUITests;
-			productReference = A70E90392804D901003BB62C /* coraUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +170,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					A70E902E2804D901003BB62C = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = A70E90182804D8FF003BB62C;
-					};
-					A70E90382804D901003BB62C = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = A70E90182804D8FF003BB62C;
 					};
@@ -221,7 +190,6 @@
 			targets = (
 				A70E90182804D8FF003BB62C /* cora */,
 				A70E902E2804D901003BB62C /* coraTests */,
-				A70E90382804D901003BB62C /* coraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +201,10 @@
 			files = (
 				A70E90292804D901003BB62C /* LaunchScreen.storyboard in Resources */,
 				A70E90262804D901003BB62C /* Assets.xcassets in Resources */,
-				A70E90242804D8FF003BB62C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A70E902D2804D901003BB62C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A70E90372804D901003BB62C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +232,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A70E90352804D901003BB62C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A70E903E2804D901003BB62C /* coraUITests.swift in Sources */,
-				A70E90402804D901003BB62C /* coraUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +240,9 @@
 			target = A70E90182804D8FF003BB62C /* cora */;
 			targetProxy = A70E90302804D901003BB62C /* PBXContainerItemProxy */;
 		};
-		A70E903B2804D901003BB62C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A70E90182804D8FF003BB62C /* cora */;
-			targetProxy = A70E903A2804D901003BB62C /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A70E90222804D8FF003BB62C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A70E90232804D8FF003BB62C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A70E90272804D901003BB62C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,10 +378,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = cora/Info.plist;
+				INFOPLIST_FILE = cora/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +404,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = cora/Info.plist;
+				INFOPLIST_FILE = cora/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,40 +460,6 @@
 			};
 			name = Release;
 		};
-		A70E904A2804D901003BB62C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = clau.coraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cora;
-			};
-			name = Debug;
-		};
-		A70E904B2804D901003BB62C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = clau.coraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = cora;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -584,15 +486,6 @@
 			buildConfigurations = (
 				A70E90472804D901003BB62C /* Debug */,
 				A70E90482804D901003BB62C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A70E90492804D901003BB62C /* Build configuration list for PBXNativeTarget "coraUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A70E904A2804D901003BB62C /* Debug */,
-				A70E904B2804D901003BB62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
