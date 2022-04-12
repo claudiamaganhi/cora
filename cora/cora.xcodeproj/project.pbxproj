@@ -19,6 +19,7 @@
 		A70E905B2805E950003BB62C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E905A2805E950003BB62C /* Colors.swift */; };
 		A70E90602805ED82003BB62C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E905F2805ED82003BB62C /* Fonts.swift */; };
 		A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90612805F3EB003BB62C /* SecondaryButton.swift */; };
+		A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90632805FE53003BB62C /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A70E905A2805E950003BB62C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A70E905F2805ED82003BB62C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		A70E90612805F3EB003BB62C /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		A70E90632805FE53003BB62C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +157,7 @@
 			children = (
 				A70E905D2805ED61003BB62C /* Typography */,
 				A70E90592805E940003BB62C /* Color */,
-				A70E90612805F3EB003BB62C /* SecondaryButton.swift */,
+				A70E90652805FE66003BB62C /* CommomViews */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -166,6 +168,15 @@
 				A70E905F2805ED82003BB62C /* Fonts.swift */,
 			);
 			path = Typography;
+			sourceTree = "<group>";
+		};
+		A70E90652805FE66003BB62C /* CommomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A70E90632805FE53003BB62C /* PrimaryButton.swift */,
+				A70E90612805F3EB003BB62C /* SecondaryButton.swift */,
+			);
+			path = CommomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */,
 				A70E90602805ED82003BB62C /* Fonts.swift in Sources */,
 				A70E90212804D8FF003BB62C /* IntroViewController.swift in Sources */,
 				A70E905B2805E950003BB62C /* Colors.swift in Sources */,

@@ -65,21 +65,10 @@ final class IntroViewController: UIViewController {
         return stackView
     }()
     
-    private lazy var joinButtonConfig: UIButton.Configuration = {
-        var config = UIButton.Configuration.filled()
-        config.baseForegroundColor = Colors.primary
-        config.baseBackgroundColor =  Colors.background
-        config.cornerStyle = .large
-        config.attributedTitle = AttributedString(IntroText.joinButton.localized, attributes: AttributeContainer([.font: Fonts.primaryLight(size: 16)]))
-        config.image = UIImage(named: "right-arrow")
-        config.imagePlacement = .trailing
-        config.imagePadding = 170
-        return config
-    }()
-    
     private lazy var joinButton: UIButton = {
-        let button = UIButton(configuration: joinButtonConfig, primaryAction: nil)
-        button.translatesAutoresizingMaskIntoConstraints = false
+        let button = PrimaryButton.make()
+        button.configuration?.attributedTitle = AttributedString(IntroText.joinButton.localized, attributes: AttributeContainer([.font: Fonts.primaryLight(size: 16)]))
+        button.configuration?.image = UIImage(named: "right-arrow")
         return button
     }()
     
