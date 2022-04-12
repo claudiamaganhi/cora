@@ -84,14 +84,8 @@ final class IntroViewController: UIViewController {
     }()
     
     private lazy var loginButton: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
+        let button = SecondaryButton.make()
         button.setTitle(IntroText.loginButton.localized, for: .normal)
-        button.backgroundColor = Colors.primary
-        button.titleLabel?.font = Fonts.primaryLight(size: 14)
-        button.layer.cornerRadius = 12
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.white.cgColor
         return button
     }()
     
