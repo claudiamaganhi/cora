@@ -5,3 +5,9 @@ enum IntroText: String, Localizing {
     case joinButton = "intro.joinButton"
     case loginButton = "intro.loginButton"
 }
+
+enum CPFText: String, Localizing {
+    case title = "CPF.title"
+    case greetingsTitle = "CPF.greetingsTitle"
+    case inputTitle = "CPF.inputTitle"
+}

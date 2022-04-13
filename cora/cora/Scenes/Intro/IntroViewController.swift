@@ -29,7 +29,7 @@ final class IntroViewController: UIViewController {
     private lazy var subtitleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = Fonts.primaryLight(size: 28)
+        label.font = Fonts.primary(size: 28)
         label.text = IntroText.subtitle.localized
         label.textColor = .white
         label.numberOfLines = 0
@@ -40,7 +40,7 @@ final class IntroViewController: UIViewController {
     private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = Fonts.primaryLight(size: 16)
+        label.font = Fonts.primary(size: 16)
         label.text = IntroText.description.localized
         label.textColor = .white
         label.numberOfLines = 0
@@ -67,14 +67,16 @@ final class IntroViewController: UIViewController {
     
     private lazy var joinButton: UIButton = {
         let button = PrimaryButton.make()
-        button.configuration?.attributedTitle = AttributedString(IntroText.joinButton.localized, attributes: AttributeContainer([.font: Fonts.primaryLight(size: 16)]))
+        button.configuration?.attributedTitle = AttributedString(IntroText.joinButton.localized, attributes: AttributeContainer([.font: Fonts.primary(size: 16)]))
         button.configuration?.image = UIImage(named: "right-arrow")
+        button.addTarget(self, action: #selector(createAccount), for: .touchUpInside)
         return button
     }()
     
     private lazy var loginButton: UIButton = {
         let button = SecondaryButton.make()
         button.setTitle(IntroText.loginButton.localized, for: .normal)
+        button.addTarget(self, action: #selector(showStatement), for: .touchUpInside)
         return button
     }()
     
@@ -95,7 +97,18 @@ final class IntroViewController: UIViewController {
         stackView.spacing = 16.0
         return stackView
     }()
-
+    
+    private let interactor: IntroInteracting
+    
+    init(interactor: IntroInteracting) {
+        self.interactor = interactor
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -125,5 +138,15 @@ final class IntroViewController: UIViewController {
             bottomStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             bottomStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
         ])
+    }
+}
+
+@objc extension IntroViewController {
+    func showStatement() {
+        interactor.showStatment()
+    }
+    
+    func createAccount() {
+        interactor.createAccount()
     }
 }

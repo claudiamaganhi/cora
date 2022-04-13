@@ -5,4 +5,7 @@
 "intro.joinButton" = "Quero fazer parte!";
 "intro.loginButton" = "Já sou cliente";
 
-
+//MARK: - CPF
+"CPF.title" = "Login Cora";
+"CPF.greetingsTitle" = "Bem-vindo de volta!";
+"CPF.inputTitle" = "Qual seu CPF?";

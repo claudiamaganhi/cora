@@ -20,6 +20,10 @@
 		A70E90602805ED82003BB62C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E905F2805ED82003BB62C /* Fonts.swift */; };
 		A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90612805F3EB003BB62C /* SecondaryButton.swift */; };
 		A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90632805FE53003BB62C /* PrimaryButton.swift */; };
+		A70E906828063925003BB62C /* IntroFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E906728063925003BB62C /* IntroFactory.swift */; };
+		A70E906A2806395D003BB62C /* IntroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90692806395D003BB62C /* IntroInteractor.swift */; };
+		A70E906C28063977003BB62C /* IntroCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E906B28063977003BB62C /* IntroCoordinator.swift */; };
+		A70E907128064120003BB62C /* CPFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E907028064120003BB62C /* CPFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A70E905F2805ED82003BB62C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		A70E90612805F3EB003BB62C /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		A70E90632805FE53003BB62C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A70E906728063925003BB62C /* IntroFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFactory.swift; sourceTree = "<group>"; };
+		A70E90692806395D003BB62C /* IntroInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroInteractor.swift; sourceTree = "<group>"; };
+		A70E906B28063977003BB62C /* IntroCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCoordinator.swift; sourceTree = "<group>"; };
+		A70E907028064120003BB62C /* CPFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +127,8 @@
 		A70E904D2804DBC0003BB62C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A70E90202804D8FF003BB62C /* IntroViewController.swift */,
+				A70E906D28063F57003BB62C /* CPF */,
+				A70E906628060575003BB62C /* Intro */,
 				A70E90542805E3FB003BB62C /* Localizable */,
 			);
 			path = Scenes;
@@ -137,8 +146,8 @@
 		A70E90542805E3FB003BB62C /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
-				A70E90522805E1C4003BB62C /* Localizable.strings */,
 				A70E90552805E687003BB62C /* Localizing.swift */,
+				A70E90522805E1C4003BB62C /* Localizable.strings */,
 				A70E90572805E6FF003BB62C /* Strings.swift */,
 			);
 			path = Localizable;
@@ -177,6 +186,25 @@
 				A70E90612805F3EB003BB62C /* SecondaryButton.swift */,
 			);
 			path = CommomViews;
+			sourceTree = "<group>";
+		};
+		A70E906628060575003BB62C /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				A70E90202804D8FF003BB62C /* IntroViewController.swift */,
+				A70E906728063925003BB62C /* IntroFactory.swift */,
+				A70E90692806395D003BB62C /* IntroInteractor.swift */,
+				A70E906B28063977003BB62C /* IntroCoordinator.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		A70E906D28063F57003BB62C /* CPF */ = {
+			isa = PBXGroup;
+			children = (
+				A70E907028064120003BB62C /* CPFViewController.swift */,
+			);
+			path = CPF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */,
+				A70E906A2806395D003BB62C /* IntroInteractor.swift in Sources */,
+				A70E907128064120003BB62C /* CPFViewController.swift in Sources */,
 				A70E90602805ED82003BB62C /* Fonts.swift in Sources */,
 				A70E90212804D8FF003BB62C /* IntroViewController.swift in Sources */,
+				A70E906828063925003BB62C /* IntroFactory.swift in Sources */,
+				A70E906C28063977003BB62C /* IntroCoordinator.swift in Sources */,
 				A70E905B2805E950003BB62C /* Colors.swift in Sources */,
 				A70E901D2804D8FF003BB62C /* AppDelegate.swift in Sources */,
 				A70E90582805E6FF003BB62C /* Strings.swift in Sources */,
