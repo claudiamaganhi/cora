@@ -116,7 +116,7 @@ final class CPFViewController: UIViewController {
 
 @objc extension CPFViewController {
     func nextStep() {
-        print("FOI")
+        interactor.showPasswordScreen()
     }
     
     func dismissKeyboard() {

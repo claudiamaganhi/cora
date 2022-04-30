@@ -28,6 +28,11 @@
 		A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E9077280F74DB003BB62C /* CPFPresenter.swift */; };
 		A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E9079280F74EA003BB62C /* CPFCoordinator.swift */; };
 		A70E907C280F7680003BB62C /* CPFFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E907B280F7680003BB62C /* CPFFactory.swift */; };
+		A7E74C7A281D6E5F00D39A2F /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C79281D6E5F00D39A2F /* PasswordViewController.swift */; };
+		A7E74C7C281D6E7900D39A2F /* PasswordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C7B281D6E7900D39A2F /* PasswordInteractor.swift */; };
+		A7E74C7E281D6E8600D39A2F /* PasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C7D281D6E8600D39A2F /* PasswordPresenter.swift */; };
+		A7E74C80281D6E9500D39A2F /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C7F281D6E9500D39A2F /* PasswordCoordinator.swift */; };
+		A7E74C82281D6EAE00D39A2F /* PasswordFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 		A70E9077280F74DB003BB62C /* CPFPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFPresenter.swift; sourceTree = "<group>"; };
 		A70E9079280F74EA003BB62C /* CPFCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFCoordinator.swift; sourceTree = "<group>"; };
 		A70E907B280F7680003BB62C /* CPFFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFFactory.swift; sourceTree = "<group>"; };
+		A7E74C79281D6E5F00D39A2F /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		A7E74C7B281D6E7900D39A2F /* PasswordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInteractor.swift; sourceTree = "<group>"; };
+		A7E74C7D281D6E8600D39A2F /* PasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPresenter.swift; sourceTree = "<group>"; };
+		A7E74C7F281D6E9500D39A2F /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
+		A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +145,7 @@
 		A70E904D2804DBC0003BB62C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A7E74C78281D6E3D00D39A2F /* Password */,
 				A70E906D28063F57003BB62C /* CPF */,
 				A70E906628060575003BB62C /* Intro */,
 				A70E90542805E3FB003BB62C /* Localizable */,
@@ -217,6 +228,18 @@
 				A70E907B280F7680003BB62C /* CPFFactory.swift */,
 			);
 			path = CPF;
+			sourceTree = "<group>";
+		};
+		A7E74C78281D6E3D00D39A2F /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				A7E74C79281D6E5F00D39A2F /* PasswordViewController.swift */,
+				A7E74C7B281D6E7900D39A2F /* PasswordInteractor.swift */,
+				A7E74C7D281D6E8600D39A2F /* PasswordPresenter.swift */,
+				A7E74C7F281D6E9500D39A2F /* PasswordCoordinator.swift */,
+				A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */,
+			);
+			path = Password;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +353,18 @@
 				A70E906C28063977003BB62C /* IntroCoordinator.swift in Sources */,
 				A70E905B2805E950003BB62C /* Colors.swift in Sources */,
 				A70E901D2804D8FF003BB62C /* AppDelegate.swift in Sources */,
+				A7E74C7C281D6E7900D39A2F /* PasswordInteractor.swift in Sources */,
 				A70E90582805E6FF003BB62C /* Strings.swift in Sources */,
+				A7E74C80281D6E9500D39A2F /* PasswordCoordinator.swift in Sources */,
 				A70E907C280F7680003BB62C /* CPFFactory.swift in Sources */,
+				A7E74C7E281D6E8600D39A2F /* PasswordPresenter.swift in Sources */,
 				A70E901F2804D8FF003BB62C /* SceneDelegate.swift in Sources */,
 				A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */,
 				A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */,
 				A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */,
 				A70E90562805E687003BB62C /* Localizing.swift in Sources */,
+				A7E74C7A281D6E5F00D39A2F /* PasswordViewController.swift in Sources */,
+				A7E74C82281D6EAE00D39A2F /* PasswordFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

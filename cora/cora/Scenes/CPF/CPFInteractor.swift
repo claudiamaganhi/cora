@@ -2,6 +2,7 @@ import Foundation
 
 protocol CPFInteracting {
     func validateCPF(text: String)
+    func showPasswordScreen()
 }
 
 final class CPFInteractor {
@@ -17,5 +18,9 @@ final class CPFInteractor {
 extension CPFInteractor: CPFInteracting {
     func validateCPF(text: String) {
         presenter.setNextButtonEnabled(text.count == 14)
+    }
+    
+    func showPasswordScreen() {
+        coordinator.showPasswordScreen()
     }
 }
