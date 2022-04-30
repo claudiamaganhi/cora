@@ -10,4 +10,5 @@ enum CPFText: String, Localizing {
     case title = "CPF.title"
     case greetingsTitle = "CPF.greetingsTitle"
     case inputTitle = "CPF.inputTitle"
+    case buttonTitle = "CPF.buttonTitle"
 }

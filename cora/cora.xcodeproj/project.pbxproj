@@ -24,6 +24,10 @@
 		A70E906A2806395D003BB62C /* IntroInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E90692806395D003BB62C /* IntroInteractor.swift */; };
 		A70E906C28063977003BB62C /* IntroCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E906B28063977003BB62C /* IntroCoordinator.swift */; };
 		A70E907128064120003BB62C /* CPFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E907028064120003BB62C /* CPFViewController.swift */; };
+		A70E9076280F74CB003BB62C /* CPFInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E9075280F74CB003BB62C /* CPFInteractor.swift */; };
+		A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E9077280F74DB003BB62C /* CPFPresenter.swift */; };
+		A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E9079280F74EA003BB62C /* CPFCoordinator.swift */; };
+		A70E907C280F7680003BB62C /* CPFFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70E907B280F7680003BB62C /* CPFFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		A70E90692806395D003BB62C /* IntroInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroInteractor.swift; sourceTree = "<group>"; };
 		A70E906B28063977003BB62C /* IntroCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroCoordinator.swift; sourceTree = "<group>"; };
 		A70E907028064120003BB62C /* CPFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFViewController.swift; sourceTree = "<group>"; };
+		A70E9075280F74CB003BB62C /* CPFInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFInteractor.swift; sourceTree = "<group>"; };
+		A70E9077280F74DB003BB62C /* CPFPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFPresenter.swift; sourceTree = "<group>"; };
+		A70E9079280F74EA003BB62C /* CPFCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFCoordinator.swift; sourceTree = "<group>"; };
+		A70E907B280F7680003BB62C /* CPFFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +211,10 @@
 			isa = PBXGroup;
 			children = (
 				A70E907028064120003BB62C /* CPFViewController.swift */,
+				A70E9075280F74CB003BB62C /* CPFInteractor.swift */,
+				A70E9077280F74DB003BB62C /* CPFPresenter.swift */,
+				A70E9079280F74EA003BB62C /* CPFCoordinator.swift */,
+				A70E907B280F7680003BB62C /* CPFFactory.swift */,
 			);
 			path = CPF;
 			sourceTree = "<group>";
@@ -309,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */,
+				A70E9076280F74CB003BB62C /* CPFInteractor.swift in Sources */,
 				A70E906A2806395D003BB62C /* IntroInteractor.swift in Sources */,
 				A70E907128064120003BB62C /* CPFViewController.swift in Sources */,
 				A70E90602805ED82003BB62C /* Fonts.swift in Sources */,
@@ -318,8 +331,11 @@
 				A70E905B2805E950003BB62C /* Colors.swift in Sources */,
 				A70E901D2804D8FF003BB62C /* AppDelegate.swift in Sources */,
 				A70E90582805E6FF003BB62C /* Strings.swift in Sources */,
+				A70E907C280F7680003BB62C /* CPFFactory.swift in Sources */,
 				A70E901F2804D8FF003BB62C /* SceneDelegate.swift in Sources */,
+				A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */,
 				A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */,
+				A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */,
 				A70E90562805E687003BB62C /* Localizing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

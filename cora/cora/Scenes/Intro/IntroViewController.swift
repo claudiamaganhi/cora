@@ -134,7 +134,7 @@ final class IntroViewController: UIViewController {
             loginButton.heightAnchor.constraint(equalToConstant: 48.0),
             joinButton.heightAnchor.constraint(equalToConstant: 64.0),
             
-            bottomStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 20),
+            bottomStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
             bottomStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             bottomStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
         ])
