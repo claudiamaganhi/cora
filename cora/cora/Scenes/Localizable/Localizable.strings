@@ -10,3 +10,9 @@
 "CPF.greetingsTitle" = "Bem-vindo de volta!";
 "CPF.inputTitle" = "Qual seu CPF?";
 "CPF.buttonTitle" = "Próximo";
+
+// MARK: - Password
+"password.title" = "Login Cora";
+"password.inputTitle" = "Digite sua senha de acesso";
+"password.forgotPasswordTitle" = "Esqueci minha senha";
+"password.buttonTitle" = "Próximo";

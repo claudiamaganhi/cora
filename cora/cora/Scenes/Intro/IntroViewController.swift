@@ -115,6 +115,11 @@ final class IntroViewController: UIViewController {
         setupConstraints()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     func setupView() {
         introImageView.addSubview(logoImageView)
         view.addSubview(rootStackView)

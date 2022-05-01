@@ -82,6 +82,7 @@ final class CPFViewController: UIViewController {
         title = CPFText.title.localized
         navigationController?.navigationBar.tintColor = Colors.primary
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: Colors.gray1, .font: Fonts.primary(size: 14)]
+        navigationController?.navigationBar.backgroundColor = Colors.gray4
     }
     
     func setupViews() {

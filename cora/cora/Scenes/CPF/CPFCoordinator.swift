@@ -9,6 +9,7 @@ final class CPFCoordinator: CPFCoordinating {
     weak var viewController: UIViewController?
     
     func showPasswordScreen() {
+        viewController?.navigationItem.backButtonTitle = ""
         viewController?.show(PasswordFactory.make(), sender: nil)
     }
 }

@@ -14,6 +14,7 @@ extension IntroCoordinator {
     func createAccount() {
         let cpfController = CPFFactory.make()
         viewController?.navigationItem.backButtonTitle = ""
+        viewController?.navigationController?.navigationBar.isHidden = false
         viewController?.show(cpfController, sender: nil)
     }
     

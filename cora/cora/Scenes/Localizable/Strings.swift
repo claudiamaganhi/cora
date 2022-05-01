@@ -12,3 +12,10 @@ enum CPFText: String, Localizing {
     case inputTitle = "CPF.inputTitle"
     case buttonTitle = "CPF.buttonTitle"
 }
+
+enum PasswordText: String, Localizing {
+    case title = "password.title"
+    case inputTitle = "password.inputTitle"
+    case forgotPasswordTitle = "password.forgotPasswordTitle"
+    case buttonTitle = "password.buttonTitle"
+}
