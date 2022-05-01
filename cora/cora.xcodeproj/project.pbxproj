@@ -33,6 +33,11 @@
 		A7E74C7E281D6E8600D39A2F /* PasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C7D281D6E8600D39A2F /* PasswordPresenter.swift */; };
 		A7E74C80281D6E9500D39A2F /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C7F281D6E9500D39A2F /* PasswordCoordinator.swift */; };
 		A7E74C82281D6EAE00D39A2F /* PasswordFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */; };
+		A7E74D6D281E076200D39A2F /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D6C281E076200D39A2F /* TransactionsViewController.swift */; };
+		A7E74D6F281E077100D39A2F /* TransactionsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D6E281E077100D39A2F /* TransactionsInteractor.swift */; };
+		A7E74D71281E077D00D39A2F /* TransactionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D70281E077D00D39A2F /* TransactionsPresenter.swift */; };
+		A7E74D73281E078A00D39A2F /* TransactionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D72281E078A00D39A2F /* TransactionsCoordinator.swift */; };
+		A7E74D75281E079B00D39A2F /* TransactionsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		A7E74C7D281D6E8600D39A2F /* PasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPresenter.swift; sourceTree = "<group>"; };
 		A7E74C7F281D6E9500D39A2F /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
 		A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFactory.swift; sourceTree = "<group>"; };
+		A7E74D6C281E076200D39A2F /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		A7E74D6E281E077100D39A2F /* TransactionsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsInteractor.swift; sourceTree = "<group>"; };
+		A7E74D70281E077D00D39A2F /* TransactionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsPresenter.swift; sourceTree = "<group>"; };
+		A7E74D72281E078A00D39A2F /* TransactionsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCoordinator.swift; sourceTree = "<group>"; };
+		A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,7 @@
 		A70E904D2804DBC0003BB62C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A7E74D6B281E073000D39A2F /* Transactions */,
 				A7E74C78281D6E3D00D39A2F /* Password */,
 				A70E906D28063F57003BB62C /* CPF */,
 				A70E906628060575003BB62C /* Intro */,
@@ -240,6 +251,18 @@
 				A7E74C81281D6EAE00D39A2F /* PasswordFactory.swift */,
 			);
 			path = Password;
+			sourceTree = "<group>";
+		};
+		A7E74D6B281E073000D39A2F /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				A7E74D6C281E076200D39A2F /* TransactionsViewController.swift */,
+				A7E74D6E281E077100D39A2F /* TransactionsInteractor.swift */,
+				A7E74D70281E077D00D39A2F /* TransactionsPresenter.swift */,
+				A7E74D72281E078A00D39A2F /* TransactionsCoordinator.swift */,
+				A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */,
+			);
+			path = Transactions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +369,7 @@
 				A70E90642805FE53003BB62C /* PrimaryButton.swift in Sources */,
 				A70E9076280F74CB003BB62C /* CPFInteractor.swift in Sources */,
 				A70E906A2806395D003BB62C /* IntroInteractor.swift in Sources */,
+				A7E74D73281E078A00D39A2F /* TransactionsCoordinator.swift in Sources */,
 				A70E907128064120003BB62C /* CPFViewController.swift in Sources */,
 				A70E90602805ED82003BB62C /* Fonts.swift in Sources */,
 				A70E90212804D8FF003BB62C /* IntroViewController.swift in Sources */,
@@ -360,10 +384,14 @@
 				A7E74C7E281D6E8600D39A2F /* PasswordPresenter.swift in Sources */,
 				A70E901F2804D8FF003BB62C /* SceneDelegate.swift in Sources */,
 				A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */,
+				A7E74D75281E079B00D39A2F /* TransactionsFactory.swift in Sources */,
 				A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */,
+				A7E74D6D281E076200D39A2F /* TransactionsViewController.swift in Sources */,
+				A7E74D6F281E077100D39A2F /* TransactionsInteractor.swift in Sources */,
 				A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */,
 				A70E90562805E687003BB62C /* Localizing.swift in Sources */,
 				A7E74C7A281D6E5F00D39A2F /* PasswordViewController.swift in Sources */,
+				A7E74D71281E077D00D39A2F /* TransactionsPresenter.swift in Sources */,
 				A7E74C82281D6EAE00D39A2F /* PasswordFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
