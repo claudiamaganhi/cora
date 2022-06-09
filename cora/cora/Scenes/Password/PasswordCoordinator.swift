@@ -12,6 +12,7 @@ final class PasswordCoordinator {
 
 extension PasswordCoordinator: PasswordCoordinating {
     func showTransactions() {
+        viewController?.show(TransactionsFactory.make(), sender: nil)
     }
     
     func showResetPassword() {

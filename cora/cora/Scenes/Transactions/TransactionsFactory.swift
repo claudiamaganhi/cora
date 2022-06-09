@@ -1,7 +1,7 @@
 import UIKit
 
 enum TransactionsFactory {
-    func make() -> UIViewController {
+    static func make() -> UIViewController {
         let presenter: TransactionsPresenting = TransactionsPresenter()
         let coordinator: TransactionsCoordinating = TransactionsCoordinator()
         let interactor: TransactionsInteracting = TransactionsInteractor(presenter: presenter, coordinator: coordinator)

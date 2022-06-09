@@ -12,7 +12,7 @@ final class IntroCoordinator: IntroCoordinating {
 
 extension IntroCoordinator {
     func createAccount() {
-        let cpfController = CPFFactory.make()
+        let cpfController = TransactionsFactory.make() // CPFFactory.make()
         viewController?.navigationItem.backButtonTitle = ""
         viewController?.navigationController?.navigationBar.isHidden = false
         viewController?.show(cpfController, sender: nil)

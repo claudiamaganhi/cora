@@ -16,3 +16,6 @@
 "password.inputTitle" = "Digite sua senha de acesso";
 "password.forgotPasswordTitle" = "Esqueci minha senha";
 "password.buttonTitle" = "Próximo";
+
+// MARK: - Transactions
+"transactions.title" = "Extrato";

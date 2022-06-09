@@ -38,6 +38,7 @@
 		A7E74D71281E077D00D39A2F /* TransactionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D70281E077D00D39A2F /* TransactionsPresenter.swift */; };
 		A7E74D73281E078A00D39A2F /* TransactionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D72281E078A00D39A2F /* TransactionsCoordinator.swift */; };
 		A7E74D75281E079B00D39A2F /* TransactionsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */; };
+		A7E74D78281E2FAD00D39A2F /* UISegmentedControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E74D77281E2FAD00D39A2F /* UISegmentedControl+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		A7E74D70281E077D00D39A2F /* TransactionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsPresenter.swift; sourceTree = "<group>"; };
 		A7E74D72281E078A00D39A2F /* TransactionsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCoordinator.swift; sourceTree = "<group>"; };
 		A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsFactory.swift; sourceTree = "<group>"; };
+		A7E74D77281E2FAD00D39A2F /* UISegmentedControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		A70E904D2804DBC0003BB62C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A7E74D76281E2F9100D39A2F /* Extensions */,
 				A7E74D6B281E073000D39A2F /* Transactions */,
 				A7E74C78281D6E3D00D39A2F /* Password */,
 				A70E906D28063F57003BB62C /* CPF */,
@@ -263,6 +266,14 @@
 				A7E74D74281E079B00D39A2F /* TransactionsFactory.swift */,
 			);
 			path = Transactions;
+			sourceTree = "<group>";
+		};
+		A7E74D76281E2F9100D39A2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7E74D77281E2FAD00D39A2F /* UISegmentedControl+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +397,7 @@
 				A70E907A280F74EA003BB62C /* CPFCoordinator.swift in Sources */,
 				A7E74D75281E079B00D39A2F /* TransactionsFactory.swift in Sources */,
 				A70E90622805F3EB003BB62C /* SecondaryButton.swift in Sources */,
+				A7E74D78281E2FAD00D39A2F /* UISegmentedControl+Extension.swift in Sources */,
 				A7E74D6D281E076200D39A2F /* TransactionsViewController.swift in Sources */,
 				A7E74D6F281E077100D39A2F /* TransactionsInteractor.swift in Sources */,
 				A70E9078280F74DB003BB62C /* CPFPresenter.swift in Sources */,

@@ -19,3 +19,7 @@ enum PasswordText: String, Localizing {
     case forgotPasswordTitle = "password.forgotPasswordTitle"
     case buttonTitle = "password.buttonTitle"
 }
+
+enum TransactionsText: String, Localizing {
+    case title = "transactions.title"
+}
